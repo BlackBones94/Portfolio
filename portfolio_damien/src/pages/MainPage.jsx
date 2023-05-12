@@ -1,7 +1,10 @@
+import TitlePresentation from "../componants/Title";
+
+
 function Main() {
     return(
-        <div>
-            <p>Test</p>
+        <div>    
+            <TitlePresentation />
         </div>
     )
 }
