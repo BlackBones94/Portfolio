@@ -13,9 +13,14 @@ function Main() {
                 <NavBar/> 
             </div>
           
-            <TitlePresentation />
+            <div className="boxTitlePresentation">
+                <TitlePresentation />
+            </div>
+
             <div>
-                <h1>Mon Expertise</h1>
+                <div className="boxExpertise">
+                    <h1>Mon Expertise</h1>  
+                </div>
                 <Expertise />
             </div>
 
@@ -23,15 +28,23 @@ function Main() {
                 <h1>My Work</h1>
                 <Work />
             </div>
-
-            <div>
-                <CardPort />
-                <CardPort />
-            </div>
             
-            <div>
-                <h1>Contact</h1>
-                <Contact />
+            <div className="mainBoxCard">
+                <div className="boxCard">
+                    <CardPort />
+                    <CardPort />
+                    <CardPort />
+                    <CardPort />
+                    <CardPort />
+                    <CardPort />
+                </div>
+            </div>
+
+            <div className="mainBoxContact">
+                <div className="boxContact">
+                    <h1>Contact</h1>
+                    <Contact />
+                </div>
             </div>
         </div>
     )
