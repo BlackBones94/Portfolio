@@ -5,16 +5,26 @@ import Contact from "../componants/Contact";
 import NavBar from "../componants/Nav";
 import CardPort from "../componants/CardProject";
 
+import scrollDown from "../utile/scrollFunc";
+
+import { useRef } from "react";
 
 function Main() {
+
+    const cardSection = useRef(null);
+    const contactSection = useRef(null);
+    const expertiseSection = useRef(null)
+    const experieceSection = useRef(null)
+
     return(
         <div> 
             <div className="boxNavBar">
-                <NavBar/> 
+                <NavBar /> 
             </div>
           
             <div className="boxTitlePresentation">
                 <TitlePresentation />
+                <button onClick={() => scrollDown(cardSection)} > Test</button>
             </div>
 
             <div>
@@ -24,7 +34,7 @@ function Main() {
                 <Expertise />
             </div>
 
-            <div>
+            <div  ref={cardSection}>
                 <h1>My Work</h1>
                 <Work />
             </div>
@@ -40,7 +50,7 @@ function Main() {
                 </div>
             </div>
 
-            <div className="mainBoxContact">
+            <div className="mainBoxContact" ref={contactSection}>
                 <div className="boxContact">
                     <h1>Contact</h1>
                     <Contact />

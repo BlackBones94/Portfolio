@@ -1,8 +1,10 @@
+import React from "react";
+
 
 
 function Contact() {
     return (
-        <div>
+        <div className="section-contact">
             <a>damien.pellet94@hotmail.fr</a>
             <ul>
                 <li>LinkedIn</li>
