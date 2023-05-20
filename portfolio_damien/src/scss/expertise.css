@@ -6,7 +6,7 @@
   
   .mainBoxExpertise{
     display: grid;
-    grid-template-columns: repeat(2, 0fr);
+    grid-template-columns: repeat(3, 0fr);
     justify-content: center;
   }
   

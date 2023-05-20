@@ -7,6 +7,8 @@ import Main from './pages/MainPage';
 import './scss/index.css';
 import './scss/expertise.css';
 import './scss/title.css';
+import './scss/nav.css';
+import './scss/btn.css';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 

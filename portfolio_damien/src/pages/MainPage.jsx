@@ -22,12 +22,15 @@ function Main() {
           
             <div className="boxTitlePresentation">
                 <TitlePresentation />
-                <button onClick={() => scrollDown(cardSection)} > Test</button>
+                {/* <button className="scroll-btn" onClick={() => scrollDown(cardSection)} > Test</button> */}
+                <div id="section10" class="demo">
+                    <a href="#thanks" onClick={() => scrollDown(cardSection)}><span></span>Scroll</a>
+                </div>
             </div>
 
             <div>
                 <div className="mainboxExpertise">
-                    <h1>Mon Expertise</h1>  
+                    <h1 className="title-expertise">Mon Expertise</h1>  
                 </div>
                 <Expertise />
             </div>

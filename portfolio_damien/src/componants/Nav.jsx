@@ -13,17 +13,17 @@ function NavBar(){
 
                     <Tabs>
                         <Link activeClass='active' smooth spy to="boxTitlePresentation">
-                            <Tab label="home" />
+                            <Tab label="// home" />
                         </Link>
                         <Link  activeClass='active' smooth spy to="mainboxExpertise">
-                            <Tab label="expertise"/>
+                            <Tab label="// expertise"/>
                         </Link>
                         <Link activeClass='active' smooth spy to="mainBoxCard">
-                            <Tab label="work"/>
+                            <Tab label="// work"/>
                         </Link>
-                        <Tab label="experience"/>
+                        <Tab label="// experience"/>
                         <Link activeClass='active' smooth spy to="mainBoxContact">
-                            <Tab label="contact"/>
+                            <Tab label="// contact"/>
                         </Link>
                     </Tabs>
                 </Toolbar>

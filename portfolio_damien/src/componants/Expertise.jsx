@@ -1,11 +1,11 @@
 
-
 function Expertise() {
     return(
         <div className="mainBoxExpertise">
             <div className="boxSoftwareExpertise">
                 <div className="boxIconTitle">
                     {/* <img></img> */}
+                    
                     <h1>Software Development</h1>
                     <h3>Expérimenté en fonctionnel Front End: Javascript et React</h3>
                 </div>
