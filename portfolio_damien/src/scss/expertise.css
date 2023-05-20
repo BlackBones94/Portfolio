@@ -1,0 +1,18 @@
+/* Expertise CSS Componant */
+
+.boxExpertise{
+    text-align: center;
+  }
+  
+  .mainBoxExpertise{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    justify-content: center;
+  }
+  
+  .boxSoftwareExpertise, .boxFrontExpertise{
+    width: 400px;
+    border: 2px solid white;
+    height: 300px;
+  }
+  

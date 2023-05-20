@@ -1,0 +1,26 @@
+/* Title presentation CSS component  */
+
+
+.title{
+    margin: 0;
+    font-size: 10vw;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    text-shadow: 1px 3px 11px rgba(0,0,0,.3);
+}
+
+.subTitle{
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    align-items: center;
+}
+
+.boxTitlePresentation{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }

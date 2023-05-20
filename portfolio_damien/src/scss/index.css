@@ -23,12 +23,7 @@ code {
   padding-bottom: 10%;
 }
 
-.boxTitlePresentation{
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-  text-align: center;
-}
+
 .mainBoxCard{
   display: flex;
   justify-content: center;
@@ -49,22 +44,5 @@ margin-left: auto;
 margin-right: auto;
 width: 150px;
  
-}
-
-/* Expertise CSS Componant */
-
-.boxExpertise{
-  text-align: center;
-}
-
-.mainBoxExpertise{
-  display: flex;
-  justify-content: center;
-}
-
-.boxSoftwareExpertise, .boxFrontExpertise{
-  width: 400px;
-  border: 2px solid white;
-  height: 300px;
 }
 

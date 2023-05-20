@@ -12,9 +12,7 @@ import { useRef } from "react";
 function Main() {
 
     const cardSection = useRef(null);
-    const contactSection = useRef(null);
-    const expertiseSection = useRef(null)
-    const experieceSection = useRef(null)
+   
 
     return(
         <div> 
@@ -28,7 +26,7 @@ function Main() {
             </div>
 
             <div>
-                <div className="boxExpertise">
+                <div className="mainboxExpertise">
                     <h1>Mon Expertise</h1>  
                 </div>
                 <Expertise />
@@ -50,7 +48,7 @@ function Main() {
                 </div>
             </div>
 
-            <div className="mainBoxContact" ref={contactSection}>
+            <div className="mainBoxContact">
                 <div className="boxContact">
                     <h1>Contact</h1>
                     <Contact />

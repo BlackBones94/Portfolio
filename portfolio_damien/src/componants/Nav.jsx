@@ -1,5 +1,4 @@
-// import { AppBar, Tabs, Tab, Toolbar, Typography } from '@mui/material'
-import scrollDown from '../utile/scrollFunc';
+import { AppBar, Tabs, Tab, Toolbar, Typography } from '@mui/material'
 import { Link } from 'react-scroll';
 import React from 'react';
 
@@ -8,22 +7,30 @@ function NavBar(){
 
     return(
         <>
-            <Link activeClass ="active" smooth spy to="mainBoxContact">Test contact</Link>
-            {/* <AppBar sx={{background: ""}}>
+            <AppBar sx={{background: ""}}>
                 <Toolbar>
                     <Typography>Pellet Damien</Typography>
 
                     <Tabs>
-                        <Tab label="home" />
-                        <Tab label="expertise"/>
-                        <Tab label="work"/>
+                        <Link activeClass='active' smooth spy to="boxTitlePresentation">
+                            <Tab label="home" />
+                        </Link>
+                        <Link  activeClass='active' smooth spy to="mainboxExpertise">
+                            <Tab label="expertise"/>
+                        </Link>
+                        <Link activeClass='active' smooth spy to="mainBoxCard">
+                            <Tab label="work"/>
+                        </Link>
                         <Tab label="experience"/>
-                        <Tab label="contact"/>
+                        <Link activeClass='active' smooth spy to="mainBoxContact">
+                            <Tab label="contact"/>
+                        </Link>
                     </Tabs>
                 </Toolbar>
-            </AppBar> */}
+            </AppBar>
         </>
     )
 }
 
 export default NavBar;
+
