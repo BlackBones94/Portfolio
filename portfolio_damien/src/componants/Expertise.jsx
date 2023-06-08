@@ -1,4 +1,6 @@
 
+
+
 function Expertise() {
     return(
         <div className="mainBoxExpertise">
@@ -27,6 +29,8 @@ function Expertise() {
                 </div>
                 {/* <h3></h3> */}
             </div>
+            
+      
         </div>
     )
 }
